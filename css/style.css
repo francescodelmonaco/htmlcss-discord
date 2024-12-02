@@ -1,3 +1,10 @@
+:root {
+    --color-white: #ffffff;
+    --color-black: #23272a;
+
+
+}
+
 html {
     font-family: sans-serif;
 }
@@ -12,53 +19,71 @@ header {
 header section.top-bar {
     display: flex;
     justify-content: space-around;
-    padding-top: 20px;
-    height: 50px;
     align-items: center;
+    padding-top: 20px;
     /* vertical-align: middle; */
+}
+
+header section figure img {
+    height: 20px;
 }
 
 header section nav ul.flex-row {
     font-size: 12px;
-    color: #ffffff;
+    color: var(--color-white);
     list-style-type: none;
     display: flex;
     gap: 30px;
 }
 
-header section .login-button {
-    background-color: #ffffff;
+header .button-white {
+    background-color: var(--color-white);
+    color: var(--color-black);
     padding: 10px;
     border: none;
     border-radius: 20px;
     font-size: 12px;
 }
 
-header .h1 {
-    background-color: rgb(122, 211, 122);
-    height: 50px;
-    width: 600px;
+header .button-black {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header h1.flex-center {
+    color: var(--color-white);
     margin: 0 auto;
     width: 50%;
     margin-top: 70px;
 }
 
-header article {
-    background-color: rgb(142, 193, 189);
+header article.flex-center {
+    color: var(--color-white);
     height: 100px;
-    width: 600px;
     margin: 0 auto;
-    width: 60%;
+    width: 600px;
     margin-block: 15px;
+    font-size: 15px;
 }
 
-header .download-buttons {
+header section.download-buttons {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
-header .download-buttons .button {
+header section.download-buttons .button {
     background-color: rgb(96, 136, 61);
     height: 30px;
     width: 70px;
