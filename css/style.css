@@ -119,7 +119,8 @@ main .white-block aside article {
     font-size: 15px;
 }
 
-/* main img.lightgray-wave {
+/* .lightgray-wave {
+    color: var(--color-lightgray);
     fill: var(--color-lightgray);
 } */
 
