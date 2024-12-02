@@ -113,12 +113,15 @@ main .white-block aside {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    flex-basis: 40%;
 }
 
 main .white-block aside article {
     font-size: 15px;
 }
+
+/* main img.lightgray-wave {
+    fill: var(--color-lightgray);
+} */
 
 /* lightgray-block-1 */
 main .lightgray-block-1 {
@@ -243,12 +246,19 @@ footer h3 {
 
 footer .link-section img {
     height: 15px;
-    margin-top: 15px;
-    }
+    margin-top: 7px;
+}
 
-footer .link-section .column-1 div {
-    display: inline-block;
+footer .link-section .column-1 .language {
+    display: flex;
+    gap: 5px;
+    text-align: center;
     vertical-align: middle;
+    margin-top: 15px;
+}
+
+footer .link-section .column-1 span {
+    margin-top: -4px;
 }
 
 footer .link-section .column-1 .social-logo {
