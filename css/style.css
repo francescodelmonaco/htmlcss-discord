@@ -120,10 +120,11 @@ main .white-block aside article {
     font-size: 15px;
 }
 
-/* .lightgray-wave {
-    color: var(--color-lightgray);
+.lightgray-wave {
+    background-image: url(../img/wave.svg);
     fill: var(--color-lightgray);
-} */
+    height: 100px;
+}
 
 /* lightgray-block-1 */
 main .lightgray-block-1 {
